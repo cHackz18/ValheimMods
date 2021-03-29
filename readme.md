@@ -7,3 +7,8 @@ List of .DLLs and where to find them to add to the Libs folder. We can't host th
 - <game_root>/BeInEx/core/BeInEx.dll
 - <game_root>/valheim_Data/Managed/UnityEngine.dll
 - <game_root>/valheim_Data/Managed/UnityEngine.CoreModule.dll
+
+# You need to add the references to the DLL manually
+follow the section of this guide page named 'Gathering DLL dependencies' for instructions on how to add references to the .dlls copied into the '/Libs/' folder.
+
+https://bepinex.github.io/bepinex_docs/master/articles/dev_guide/plugin_tutorial/1_setup.html
