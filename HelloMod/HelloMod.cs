@@ -1,12 +1,11 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using BepInEx;
 
 namespace HelloMod
 {
-    public class HelloMod
+    [BepInPlugin("github.com.cHackz18.ValheimMods.HelloWorld", "Hello World Plugin", "1.0.0.0")]
+    [BepInProcess("valheim.exe")]
+    public class HelloMod : BaseUnityPlugin
     {
     }
 }

@@ -1,4 +1,4 @@
-# There'll be a list of .DLLs and where to find them added to this file as and when needed.
+# List of .DLLs and where to find them to add to the Libs folder.
 # We can't host the .dlls in the repo as that's illegals! :S
 
 <game_root>/BeInEx/core/BeInEx.dll
