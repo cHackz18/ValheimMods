@@ -7,5 +7,9 @@ namespace HelloMod
     [BepInProcess("valheim.exe")]
     public class HelloMod : BaseUnityPlugin
     {
+        void Awake()
+        {
+            UnityEngine.Debug.Log("Hello, World");
+        }
     }
 }
